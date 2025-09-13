@@ -77,7 +77,7 @@ CREATE TABLE IF NOT EXISTS controle_vacuum (
 DB_CONFIG = {
     "dbname": "meu_banco",
     "user": "postgres",
-    "password": "daminelli",  # usar variável de ambiente em produção
+    "password": "teste",  # usar variável de ambiente em produção
     "host": "localhost",
     "port": "5432"
 }
@@ -107,7 +107,7 @@ EMAIL_CONFIG = {
     "usuario": "teste@gmail.com",   # Usuário
     "senha": "senha_de_app",        # Senha de aplicativo do Gmail
     "remetente": "teste@gmail.com",
-    "destinatario": "michelli.daminelli2004@gmail.com"
+    "destinatario": "michelli.teste@gmail.com"
 }
 
 
