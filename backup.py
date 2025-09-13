@@ -16,7 +16,7 @@ import subprocess
 DB_CONFIG = {
     "dbname": "meu_banco",
     "user": "postgres",
-    "password": "daminelli",   # usado apenas na variável de ambiente
+    "password": "teste",   # usado apenas na variável de ambiente
     "host": "localhost",
     "port": "5432"
 }
@@ -62,7 +62,7 @@ EMAIL_CONFIG = {
     "usuario": "teste@gmail.com",
     "senha": "senhadoapgmail",  
     "remetente": "teste@gmail.com",
-    "destinatario": "michelli.daminelli2004@gmail.com"
+    "destinatario": "michelli.teste@gmail.com"
 }
 
 def emailErroEnviar(mensagem):
